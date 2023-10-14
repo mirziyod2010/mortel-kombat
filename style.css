@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: rgb(34, 34, 34);
+    color: white;
+}
+
+/*  шапка  */
+header {
+    background-color: rgb(34, 34, 34);
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.headerInner {
+    display: flex;
+    justify-content: space-between;
+    padding:0 10%;
+}
+
+img {
+    width: 300px;
+    height: 103px;
+}
+
+img:hover {
+    width: 600px;
+    height: 206px;
+}
+
+.name {
+    font-size: 24px;
+    color: rgb(248, 170, 0);
+    font-weight: 700;
+}
+
+nav {
+    width: 30%;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(248, 170, 0);
+}
+
+a:active {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+/*  main  */
+.game {
+    width: 100%;
+    height: 100vh;
+    background: url(images/BG1.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.button {
+ width: 200px;
+ height: 80px;
+ background-color: rgb(34, 34, 34);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+
+.link {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.link:hover {
+    color: red;
+}
+.link:active {
+    font-size: 25px;
+}
+
+
+
+.movie {
+    width: 100%;
+    height: 100vh;
+    background: url(images/BG2.jpeg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+ 
+
+.ak {
+    width: 100%;
+    height: 100vh;
+    background: url(images/п.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/*  подвал  */
+.footerInner {
+    padding:50px 10%;
+    color: #fff;
+}
